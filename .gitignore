@@ -2,11 +2,11 @@ Makefile
 Makefile.in
 aclocal.m4
 autom4te.cache
+compile
 config.guess
 config.h
 config-auto.h
 config.h.in
-config.log
 config.sub
 config.status
 configure
@@ -17,6 +17,7 @@ ltmain.sh
 missing
 mkinstalldirs
 stamp-h1
+test-driver
 *.pc
 *.rc
 *~
@@ -26,6 +27,8 @@ stamp-h1
 *.la
 .libs
 *.lo
+*.log
+*.trs
 *.tar.*
 cppunit-config
 _configs.sed
